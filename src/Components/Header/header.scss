@@ -1,0 +1,13 @@
+@import '../../Styles/global';
+
+.header {
+    display: flex; 
+    justify-content: space-between;
+    width: 90%;
+    margin: 3% auto;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}

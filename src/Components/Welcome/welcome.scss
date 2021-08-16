@@ -1,0 +1,14 @@
+@import '../../Styles/global';
+
+.button {
+    font-family: 'Oswald';
+    font-size: 20px;
+    color: $dark;
+    background-color: $light;
+    border: 1px solid $light;
+    border-radius: 15px;
+    height: 54px;
+    width: 219px;
+    margin-left: 20%;
+    margin-top: 100%;
+}
