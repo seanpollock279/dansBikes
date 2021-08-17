@@ -3,6 +3,8 @@ import './App.css';
 
 import Welcome from './Components/Welcome/Welcome';
 import Header from './Components/Header/Header';
+import FeedCard from './Components/FeedCard/FeedCard';
+import Feed from './Components/Feed/Feed';
 
 
 import Sean from './Assets/DisplayPhotos/sean.jpg';
@@ -56,10 +58,13 @@ class App extends React.Component {
 
   render() {
 
+    var state = this.state;
+
     return (
       <div style={{width: '375px', height: '812px', border: '0.5px solid black', margin: '0 auto'}}>
           <Header />
-          <Welcome />
+          {/* <Welcome /> */}
+          <Feed state={state} />
         
       </div>
     )  
